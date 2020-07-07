@@ -3,6 +3,9 @@ project(SFML-Template-project)
 
 set(CMAKE_CXX_STANDARD 14)
 
+# Uncomment to make a 'Make' verbose
+#set(CMAKE_VERBOSE_MAKEFILE ON)
+
 # Setup for UNIX-like system
 if (UNIX)
     message("--|| Using Unix-like OS ||--")
